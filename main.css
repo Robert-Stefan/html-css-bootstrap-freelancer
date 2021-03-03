@@ -25,3 +25,13 @@
     background-color: black;
     height: 100px;
 }
+
+.icone {
+    margin-top: 25px;
+}
+
+.about {
+    margin-top: 25px;
+    background-color: #1abc9c;
+    height: 250px;    
+}
