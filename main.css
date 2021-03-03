@@ -15,3 +15,8 @@
     background-color: red;
     color: white;
 }
+
+.hero {
+    background-color: #1abc9c;
+    height: 200px;
+}
