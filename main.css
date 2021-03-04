@@ -5,6 +5,7 @@
     border: 0;
     text-transform: uppercase;
     font-weight: bold;
+    
 }
 
 .main-header .ta-brand {
@@ -44,18 +45,59 @@
     color: white;
 }
 
-/*GENERAL*/ 
 body {
-    padding-top: 150px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*HERO*/
-
-.hero {
-    padding-top: 15px;
-    background-color: #1abc9c;
-    height: 200px;
+.hero h1 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
 }
+
+.hero h4 {
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.hero img {
+    margin-top: 80px;
+    height: 250px;
+}
+
+.hero .hero-content {
+    background-color: #1abc9c;
+}
+
+.divider {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+.divider i {
+    font-size: 30px;
+    margin: 0 15px;
+    color: white;
+}
+
+.divider::before,
+.divider::after {
+    content:'';
+    display: inline-block;
+    vertical-align: middle;
+    background-color: white;
+    height: 3px;
+    width: 96px;
+    border-radius: 70px;
+    border: 1px solid white;
+}
+
 /*PORTFOLIO*/
 
 .portfolio {
