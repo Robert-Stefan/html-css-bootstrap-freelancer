@@ -73,11 +73,11 @@ body {
 }
 
 .divider {
-    display: inline-block;
-    vertical-align: middle;
     margin-bottom: 20px;
     margin-top: 20px;
     margin: 0 auto;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .divider i {
@@ -93,7 +93,7 @@ body {
     vertical-align: middle;
     background-color: white;
     height: 3px;
-    width: 96px;
+    width: 20%;
     border-radius: 70px;
     border: 1px solid white;
 }
