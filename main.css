@@ -1,4 +1,8 @@
 /*HEADER */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+  }
 
 .main-header .ta-navbar {
     background: #2c3e50;
@@ -137,37 +141,35 @@ body {
 }
 
 /*ICONE*/
+
 .icone .layover {
     margin-top: 40px;
-    position: relative
-}
-
-.icone .layover img {
-    width: 100%;
+    position: relative;
+    overflow: hidden;
     border-radius: 5%;
-    background-color: #2c3e50;
+}
+.icone .plus {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1abc9ce6;
+    opacity: 0;
+    transition: opacity .3s;
 }
 
-.icone .plus {
-    color: white;
-    font-size: 100px;
-    opacity: 0;
+.icone .plus i {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
-    border-radius: 5%;
-}
-
-.icone .layover:hover img {
-    transition: .3s ease-in-out;
-    cursor: pointer;
-    
+    color: white;
+    font-size: 60px;
 }
 
 .icone .layover:hover .plus {
-    transition: .3s ease-in-out;
+    transition: .4s ease-in-out;
     opacity: 1;
     cursor: pointer;
     
@@ -349,6 +351,14 @@ margin-top: 25px;
     padding-bottom: 20px;
 }
 
+.fa-facebook-f:hover,
+.fa-google-plus-g:hover,
+.fa-twitter:hover,
+.fa-linkedin-in:hover {
+    background-color: white;
+    color: black;
+}
+
 .footerinfo i {
     display: inline-block;
     font-size: 20px;
@@ -361,6 +371,7 @@ margin-top: 25px;
     color: #fff;
     margin: 0 3px;
     cursor: pointer;
+    transition: background .3s;
     }
 
 @media screen and (min-width: 1200px) {
@@ -422,6 +433,11 @@ margin-top: 25px;
     font-size: 21px;
 }
 
+.footerinfo a {
+    color: #1abc9c;
+}
+
+
 /*FOOTER COPYRIGHT */
 
 .footercpyr {
@@ -433,3 +449,4 @@ margin-top: 25px;
 .footercpyr p {
     color: white;
 }
+
