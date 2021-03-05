@@ -2,7 +2,7 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 80px;
-  }
+}
 
 .main-header .ta-navbar {
     background: #2c3e50;
@@ -47,18 +47,11 @@ html {
 }
 /* UTILITIES */
 
-.box {
-    padding: 15px;
-    border: 1px solid rgba(0,0,0, .4);
-    background-color: red;
-    color: white;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
 }
-
 /*HERO*/
+
 .hero h1 {
     text-align: center;
     color: white;
@@ -72,6 +65,7 @@ body {
     margin-top: 20px;
     text-transform: uppercase;
 }
+
 .hero img {
     margin-top: 80px;
     height: 250px;
@@ -80,6 +74,7 @@ body {
 .hero .hero-content {
     background-color: #1abc9c;
 }
+/*DIVISORE CON STELLA*/
 
 .divider {
     margin-bottom: 20px;
@@ -106,7 +101,6 @@ body {
     border-radius: 70px;
     border: 2px solid white;
 }
-
 /*PORTFOLIO*/
 
 .portfolio h2 {
@@ -120,6 +114,7 @@ body {
     padding-top: 15px;
     height: 70px;
 }
+/*DIVISORE CON STELLA*/
 
 .dividercolor {
     margin-top: 30px;
@@ -144,7 +139,6 @@ body {
     border-radius: 70px;
     border: 2px solid #2c3e50;
 }
-
 /*ICONE*/
 
 .icone .layover {
@@ -153,6 +147,7 @@ body {
     overflow: hidden;
     border-radius: 5%;
 }
+
 .icone .plus {
     position: absolute;
     top: 0;
@@ -179,7 +174,6 @@ body {
     cursor: pointer;
     
 }
-
 /*ABOUT*/
 
 .about {
@@ -196,6 +190,14 @@ body {
     font-weight: bold;
     margin-top: 50px;
 }
+
+.about p {
+    color: white;
+    text-align: left;
+    font-size: 23px;
+    margin-top: 25px;
+}    
+/*DIVISORE CON STELLA*/
 
 .divider2 {
     margin-top: 30px;
@@ -220,13 +222,7 @@ body {
     border-radius: 70px;
     border: 2px solid white;
 }
-
-.about p {
-color: white;
-text-align: left;
-font-size: 23px;
-margin-top: 25px;
-}
+/*BOTTONE DI ABOUT*/
 
 .about .ta-btn {
     padding: 11px;
@@ -251,8 +247,6 @@ margin-top: 25px;
 .about .ta-btn .icon-left {
     margin-right: 5px;
 }
-
-
 /*CONTACT */
 
 .contact {
@@ -266,6 +260,7 @@ margin-top: 25px;
     font-weight: bold;
     margin-top: 50px;
 }
+/*DIVISORE CON STELLA*/
 
 .divider2color {
     margin-top: 30px;
@@ -290,7 +285,6 @@ margin-top: 25px;
     border-radius: 70px;
     border: 2px solid #2c3e50;
 }
-
 /* FORM*/
 
 .registration-form {
@@ -320,8 +314,7 @@ margin-top: 25px;
     border: 0;
     border-bottom: 1px solid #ddd;
     border-radius: 0;
-    box-shadow: none;
-    
+    box-shadow: none;    
 }
 
 .ta-btn-primary {
@@ -355,6 +348,7 @@ margin-top: 25px;
     background-color: #3a546d;
     padding-bottom: 20px;
 }
+/*SOCIAL ICON*/
 
 .fa-facebook-f:hover,
 .fa-google-plus-g:hover,
@@ -392,8 +386,8 @@ margin-top: 25px;
         color: #fff;
         margin: 0 3px;
         cursor: pointer;
-        }
     }
+}
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 .footerinfo i {
@@ -426,7 +420,7 @@ margin-top: 25px;
     }
 }
 
-.footerinfo h4{
+.footerinfo h4 {
     font-size: 25px;
     color: white;
     font-weight: bold;
