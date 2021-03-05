@@ -95,7 +95,7 @@ body {
     height: 3px;
     width: 20%;
     border-radius: 70px;
-    border: 1px solid white;
+    border: 2px solid white;
 }
 
 /*PORTFOLIO*/
@@ -133,29 +133,184 @@ body {
     height: 3px;
     width: 20%;
     border-radius: 70px;
-    border: 1px solid #2c3e50;
+    border: 2px solid #2c3e50;
 }
 
 /*ICONE*/
+
 .icone .layover img {
     margin-top: 40px;
     width: 100%;
     border-radius: 5%;
 }
-
 /*ABOUT*/
 
 .about {
     padding-top: 15px;
-    margin-top: 25px;
-    background-color: #1abc9c;
-    height: 250px;    
+    margin-top: 80px;
+    background-color: #1abc9c;    
+    padding-bottom: 50px;
 }
+
+.about h3 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.divider2 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.divider2 i {
+    vertical-align: middle;
+    font-size: 30px;
+    margin: 0 15px;
+    color: white;
+}
+
+.divider2::before,
+.divider2::after {
+    content:'';
+    display: inline-block;
+    vertical-align: middle;
+    background-color: white;
+    height: 3px;
+    width: 13%;
+    border-radius: 70px;
+    border: 2px solid white;
+}
+
+.about p {
+color: white;
+text-align: left;
+font-size: 23px;
+margin-top: 25px;
+}
+
+.about .ta-btn {
+    padding: 11px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-color: transparent;
+    transition: background .4s;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.about .ta-btn-outline {
+    color: white;
+    border: 1px solid white;
+}
+
+.about .ta-btn-outline:hover {
+    color: #1abc9c;
+    background: #FFF;
+}
+
+.about .ta-btn .icon-left {
+    margin-right: 5px;
+}
+
+
 /*CONTACT */
 
 .contact {
     margin-top: 25px;
 }
+
+.contact h3 {
+    font-size: 50px;
+    text-align: center;
+    color: #333333;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.divider2color {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.divider2color i {
+    vertical-align: middle;
+    font-size: 30px;
+    margin: 0 15px;
+    color: #2c3e50;
+}
+
+.divider2color::before,
+.divider2color::after {
+    content:'';
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #2c3e50;
+    height: 3px;
+    width: 13%;
+    border-radius: 70px;
+    border: 2px solid #2c3e50;
+}
+
+/* FORM*/
+
+.registration-form {
+    margin-top: 25px;
+}
+
+.registration-form label[for="name"],
+.registration-form label[for="email"],
+.registration-form label[for="phone"],
+.registration-form label[for="bio"] {
+    font-size: 20px;
+    color: #2c3e50;
+}
+
+.registration-form input[type="name"],
+.registration-form input[type="email"],
+.registration-form input[type="number"] {
+    font-size: 18px;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.registration-form textarea.form-control {
+    height: 100px;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    box-shadow: none;
+    
+}
+
+.ta-btn-primary {
+    color: #fff;
+    background: #1abc9c;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+.ta-btn-primary:hover {
+    color: #fff;
+    background: #159a80;
+}
+
+/*focus*/
+.registration-form input[type="name"]:hover,
+.registration-form input[type="email"]:hover,
+.registration-form input[type="number"]:hover,
+.registration-form textarea.form-control:hover,
+.registration-form input[type="name"]:focus,
+.registration-form input[type="email"]:focus,
+.registration-form input[type="number"]:focus,
+.registration-form textarea.form-control:focus {
+    border-color: #888;
+}
+
 /* FOOTER INFO */
 
 .footerinfo {
